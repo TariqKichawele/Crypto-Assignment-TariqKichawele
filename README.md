@@ -57,7 +57,7 @@ Crypto-Assignment is a dual-platform application that provides cryptocurrency da
 ## API Integration Details
 
 ### Data Fetching
-The application fetches cryptocurrency market data using a public API (e.g., CoinGecko or CoinMarketCap). API calls are made using **React Query** to handle caching and synchronization efficiently.
+The application fetches cryptocurrency market data using a CoinGecko public API, the API calls are made using **React Query** to handle caching and synchronization efficiently.
 
 #### Example API Call
 ```js
