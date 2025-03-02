@@ -90,13 +90,6 @@ For updating user preferences or saved data, **React Query** is used to manage s
 
 ## Challenges & Solutions
 
-### Challenge: Handling Large API Responses
-**Problem:** The API returned a large dataset, leading to performance issues when rendering the data.
-
-**Solution:** Implemented pagination and lazy loading using React Query to only fetch and display the necessary data.
-
----
-
 ### Challenge: State Management for Multiple Data Sources
 **Problem:** Managing different types of data (market trends, user settings) efficiently without unnecessary re-fetching.
 
@@ -114,7 +107,4 @@ For updating user preferences or saved data, **React Query** is used to manage s
 ## Conclusion
 This project successfully integrates cryptocurrency data visualization across web and mobile platforms while maintaining efficiency in API usage and state management. With React Query handling caching and synchronization, it provides an optimized user experience.
 
----
-
-For any questions or contributions, feel free to create an issue on the GitHub repository!
 
